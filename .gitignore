@@ -1,0 +1,30 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+crash.log
+
+# Chaves e credenciais
+*.pem
+*.key
+*.csv
+
+# Arquivos temporários e de sistema
+*.log
+*.tmp
+*.bak
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Configurações locais
+.vscode/
+
+# Executáveis e binários
+*.exe
+*.dll
+*.msi
+*.so
+*.dylib
